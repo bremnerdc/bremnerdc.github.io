@@ -1,0 +1,96 @@
+.nav-link{
+    color: black;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: white !important;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    color: #4aaaa5;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    color: lightslategrey;
+}
+
+.container {
+    background-color: white;
+}
+
+.row {
+    padding-top: -5%;
+}
+
+#indexRow {
+    margin-left:20%;
+}
+
+hr {
+    color: grey;
+    height: 5px;
+}
+
+p {
+    float: none;
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #4aaaa5 !important;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: auto;
+    /* padding: 50px;
+    margin: 60px; */
+    padding-bottom: 300px;
+    border: 15px grey;
+}
+
+.container2 {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    padding-bottom: 300px;
+    border: 15px grey;
+}
+
+body {
+    background-image: url("./images/bright_squares.png") !important;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: -50px;
+    padding: 20px;
+    background-color: #666666;
+}
+
+.hr2 {
+    color: #4aaaa5;
+    border: 5px solid #4aaaa5;
+    margin: -45px !important;
+}
+
+a {
+    color:turquoise
+}
+
+@media screen and (max-width: 576px) {
+
+.container {
+    width: 100%;
+    align-self: center;
+    float: right
+    }   
+}
